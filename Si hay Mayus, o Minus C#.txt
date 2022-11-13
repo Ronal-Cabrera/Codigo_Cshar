@@ -1,0 +1,27 @@
+//Mayus
+string cadenas = "hHsjaD";
+        string aa = "";
+        for (int v = 0; v < cadenas.Length; v++)
+        {
+            if (char.IsUpper(cadenas[v]))
+            {
+                aa += cadenas.Substring(v, 1);
+            }
+
+        }
+        Console.WriteLine(aa);
+        Console.ReadKey();
+
+//minus
+string cadenas = "hHsjaD";
+        string aa = "";
+        for (int v = 0; v < cadenas.Length; v++)
+        {
+            if (char.IsLower(cadenas[v]))
+            {
+                aa += cadenas.Substring(v, 1);
+            }
+
+        }
+        Console.WriteLine(aa);
+        Console.ReadKey();

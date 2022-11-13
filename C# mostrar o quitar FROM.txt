@@ -1,0 +1,6 @@
+//mostrar       
+MostrarConsultas muestra = new MostrarConsultas();
+muestra.Show();
+
+//quitar
+this.Close();

@@ -1,0 +1,4 @@
+	
+string cadena = "66;9999;101;4;10;33";
+char delimitador = ';';
+string[] valores = cadena.Split(delimitador);

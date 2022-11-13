@@ -1,0 +1,32 @@
+string a = "a";
+            string b = "b";
+            int i = 0;
+
+            do
+            {
+                Console.WriteLine("\n\nEstado actual ([ " + i + " ])\n");
+                Console.WriteLine("");
+                Console.WriteLine("Ingrese [a] o [b]");
+                string valor = (Console.ReadLine());
+
+                while ((valor != a) || (valor != b))
+                {
+                    valor = "";
+                    Console.WriteLine("solo se puede ingresar = [a] o [b]");
+                    valor = (Console.ReadLine());
+                }
+
+                if (valor == b)
+                {
+                    i++;
+                }
+                
+                Console.Clear();
+            } while (i != 4);
+
+            if (i == 4)
+            {
+                Console.WriteLine("\n\n   Error");
+            }
+
+            Console.ReadKey();
